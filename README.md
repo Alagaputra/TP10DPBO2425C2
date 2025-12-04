@@ -22,6 +22,12 @@ Sistem ini dibuat untuk mengelola data **Member, Pelatih, Paket Latihan, dan Jad
 
 ---
 
+##Dokumentasi
+
+https://github.com/user-attachments/assets/9980058f-620c-4fc5-a6a5-804e52f5d7e5
+
+---
+
 ## 🏛 Arsitektur Program — MVVM
 
 ```txt
@@ -108,7 +114,4 @@ Sistem ini dibuat untuk mengelola data **Member, Pelatih, Paket Latihan, dan Jad
 ███████████████████████████████████████████████████████████████████
 
 
-##Dokumentasi
-
-https://github.com/user-attachments/assets/9980058f-620c-4fc5-a6a5-804e52f5d7e5
 
