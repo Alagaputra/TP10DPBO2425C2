@@ -1,0 +1,111 @@
+/* ------------------------- GENERAL ------------------------- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f4f7;
+}
+
+/* ------------------------- NAVBAR ------------------------- */
+nav {
+    background: #2c3e50;
+    padding: 12px 25px;
+}
+nav a {
+    color: #fff;
+    margin-right: 18px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.2s;
+}
+nav a:hover {
+    color: #1abc9c;
+}
+
+/* ------------------------- PAGE WRAPPER ------------------------- */
+.container {
+    width: 92%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.12);
+}
+
+/* ------------------------- FORM ------------------------- */
+form label {
+    font-weight: bold;
+}
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 7px 0 17px 0;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    font-size: 15px;
+}
+button {
+    padding: 11px 18px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+/* ------------------------- BUTTONS ------------------------- */
+.btn-primary {
+    background: #3498db;
+    color: #fff;
+}
+.btn-primary:hover {
+    background: #2980b9;
+}
+.btn-warning {
+    background: #f1c40f;
+    color: #fff;
+}
+.btn-warning:hover {
+    background: #d4ac0d;
+}
+.btn-danger {
+    background: #e74c3c;
+    color: #fff;
+}
+.btn-danger:hover {
+    background: #c0392b;
+}
+
+/* ------------------------- TABLE ------------------------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 18px;
+}
+table th {
+    padding: 14px;
+    background: #3498db;
+    color: #fff;
+}
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+table tr:nth-child(even) {
+    background: #f5f6f7;
+}
+td a {
+    margin-right: 8px;
+}
+
+/* ------------------------- RESPONSIVE ------------------------- */
+@media (max-width: 600px) {
+    .container {
+        width: 96%;
+    }
+    nav a {
+        display: block;
+        margin: 6px 0;
+    }
+}
